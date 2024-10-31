@@ -1,0 +1,29 @@
+#div_noJs
+{
+	width:100%;
+	top:0;
+	left:0;
+	position:fixed;
+	background-color:#f7f619;
+	padding:10px 10% 5px 10%;
+	width:80%;
+	border-bottom:3px ridge orange;
+	z-index:100;
+}
+
+	#div_noJs p{
+		margin:0px;
+		color:#000000;
+		font-size:12px;
+		line-height:16px;
+		text-align:justify;
+		overflow:hidden;
+		height:65px;
+		padding:5px 0px 5px 70px;
+		background:url('../images/no_js_icon.png') left no-repeat;
+	}
+	
+		#div_noJs p span{
+			color:#ff0000;
+			font-weight:bold;
+		}
